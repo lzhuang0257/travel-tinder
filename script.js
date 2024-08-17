@@ -34,6 +34,7 @@ q3a2.addEventListener("click", addDogScore);
 
 restart.addEventListener("click", restartQuiz);
 djsakldjsakjdsa
+dashdashdsaj
 function addCatScore() {
   catScore += 1;
   questionCount += 1;
