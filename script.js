@@ -33,26 +33,26 @@ q3a1.addEventListener("click", addCatScore);
 q3a2.addEventListener("click", addDogScore);
 
 restart.addEventListener("click", restartQuiz);
-
-function addCatScore(){
+djsakldjsakjdsa
+function addCatScore() {
   catScore += 1;
   questionCount += 1;
 
   console.log("questionCount = " + questionCount + " catScore = " + catScore);
-  
-  if (questionCount == 3){
+
+  if (questionCount == 3) {
     console.log("The quiz is done!");
     updateResult();
   }
 }
 
-function addDogScore(){
+function addDogScore() {
   dogScore += 1;
   questionCount += 1;
-  
+
   console.log("questionCount = " + questionCount + " dogScore = " + dogScore);
 
-  if (questionCount == 3){
+  if (questionCount == 3) {
     console.log("The quiz is done!");
     updateResult();
   }
@@ -60,17 +60,17 @@ function addDogScore(){
 
 //element.innerHTML = "new text"; changes the text
 //ex. document.getElementById("result").innerHTML = "Pick a flavor!";
-function updateResult(){
-  if (catScore >= 2){
+function updateResult() {
+  if (catScore >= 2) {
     result.innerHTML = "You are a cat person!";
     console.log("You are a cat person!");
-  } else if (dogScore >= 2){
+  } else if (dogScore >= 2) {
     result.innerHTML = "You are a dog person!";
     console.log("You are a dog person!");
   }
 }
 
-function restartQuiz(){
+function restartQuiz() {
   result.innerHTML = "Your result is...";
   questionCount = 0;
   catScore = 0;
